@@ -1,0 +1,18 @@
+# Nix build artifacts
+result
+.direnv
+
+# IRC server data
+/data/
+*.db
+*.db-wal
+*.db-shm
+
+# TLS certificates (if you generate them locally)
+*.pem
+*.key
+
+# Editor temp files
+*.swp
+*~
+.DS_Store
