@@ -8,7 +8,7 @@ result
 *.db-wal
 *.db-shm
 
-# TLS certificates (if you generate them locally)
+# TLS certificates
 *.pem
 *.key
 
