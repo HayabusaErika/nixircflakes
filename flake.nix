@@ -1,6 +1,6 @@
 # file: flake.nix
 {
-  description = "A modern IRC server (Ergo) managed by HyaabusaErika";
+  description = "A modern IRC server (Ergo) managed by HayabusaErika";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -12,7 +12,7 @@
       let
         pkgs = import nixpkgs { inherit system; };
         irc-server = pkgs.ergochat;  
-        # Ergo 在 nixpkgs 中的属性名不出以外的是 ergochat
+        # Ergo 在 nixpkgs 中的属性名不出意外的是 ergochat
 
         # 启动脚本试一试看看
         start-script = pkgs.writeShellScriptBin "start-irc-server" ''
